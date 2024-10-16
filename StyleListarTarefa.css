@@ -1,0 +1,101 @@
+/* Estilizando o corpo e o container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6fa; /* Fundo em um tom suave de lavanda */
+    color: #4b0082; /* Cor do texto roxa */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco para o container */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando o título principal */
+h1 {
+    text-align: center;
+    color: #6a0dad; /* Roxo mais forte */
+}
+
+/* Estilizando a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden; /* Para arredondar os cantos da tabela */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #7a2cbd; /* Cabeçalho da tabela em um roxo mais claro */
+    color: white; /* Texto branco no cabeçalho */
+}
+
+/* Estilizando as linhas da tabela */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Linhas alternadas em cinza claro */
+}
+
+tr:hover {
+    background-color: #dcdce0; /* Cor ao passar o mouse sobre a linha */
+}
+
+/* Estilizando o formulário de edição */
+#formularioEdicao {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #6a0dad; /* Borda roxa */
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Fundo suave para o formulário */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #4b0082; /* Cor roxa para os rótulos */
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s; /* Efeito suave na borda */
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #7a2cbd; /* Borda roxa ao focar */
+}
+
+button {
+    background-color: #6a0dad; /* Botões em roxo */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efeito suave na cor do botão */
+}
+
+button:hover {
+    background-color: #7a2cbd; /* Cor do botão ao passar o mouse */
+}
